@@ -1,0 +1,17 @@
+[
+    {
+       "img":"storage/img/Marvel/Ironman.jpg",
+       "name":"Ironman",
+       "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    },
+    {
+       "img":"storage/img/Marvel/Ant-Man.jpg",
+       "name":"Antman",
+       "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    },
+    {
+        "img":"storage/img/Marvel/Ant-Man.jpg",
+        "name":"Antman",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+     }
+]
