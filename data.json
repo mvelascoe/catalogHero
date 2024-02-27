@@ -10,8 +10,68 @@
        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
     },
     {
-        "img":"storage/img/Marvel/Ant-Man.jpg",
-        "name":"Antman",
+        "img":"storage/img/Marvel/Black Panther.jpg",
+        "name":"Black Panther",
         "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
-     }
+    },
+    {
+      "img":"storage/img/Marvel/capitanA.jpg",
+      "name":"Capitan America",
+      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    },
+    {
+      "img":"storage/img/Marvel/drStrange.jpg",
+      "name":"Dr. Strange",
+      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    },
+    {
+      "img":"storage/img/Marvel/Falcon.jpg",
+      "name":"Falcon",
+      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    },
+    {
+      "img":"storage/img/Marvel/Loki.jpg",
+      "name":"Loki",
+      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    },
+    {
+      "img":"storage/img/Marvel/Nebula.jpg",
+      "name":"Nebula",
+      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    },
+    {
+      "img":"storage/img/Marvel/Scarlet Witch.jpg",
+      "name":"Scarlet Witch.",
+      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    },
+    {
+      "img":"storage/img/Marvel/Thanos.jpg",
+      "name":"Thanos.",
+      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    },
+    {
+      "img":"storage/img/Marvel/The Hulk.jpg",
+      "name":"The Hulk.",
+      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    },
+    {
+      "img":"storage/img/Marvel/Thor.jpg",
+      "name":"Thor.",
+      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    },
+    {
+      "img":"storage/img/Marvel/Vision.jpg",
+      "name":"Vision.",
+      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    },
+    {
+      "img":"storage/img/Marvel/Winter Soldier.jpg",
+      "name":"Winter Soldier.",
+      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    },
+    {
+      "img":"storage/img/Marvel/spider-man.jpg",
+      "name":"Spider-Man.",
+      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    }
 ]
