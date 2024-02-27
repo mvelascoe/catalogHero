@@ -102,7 +102,7 @@
     height: 100%; 
     overflow: auto; 
     background-color: rgba(0,0,0,0.5); 
-  }
+}
 
   .contenido-modal {
     position: relative; 
@@ -112,17 +112,17 @@
     width: 60%;
     animation-name: animarsuperior;
     animation-duration: 0.5s
-  }
+}
 
   .close {
     color: black;
     float: right;
     font-size: 30px;
     font-weight: bold;
-  }
+}
   .close:hover,
   .close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-  }
+}
