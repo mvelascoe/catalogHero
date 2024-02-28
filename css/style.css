@@ -78,7 +78,7 @@
     flex-grow: 1; 
 }
 
-.btn-more {
+.boton {
     background-color: #cea7a3;
     border: none;
     color: #fff;
@@ -125,4 +125,58 @@
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.headerMarvel {
+    background-color: #e62429; /* Color de Marvel */
+}
+  
+.headerDC {
+    background-color: #0078d4; /* Color de DC Comics */
+}
+  
+.header {
+    background-color: #eee;
+    padding: 10px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header img {
+    width: 50px; 
+    margin-left: 10px;
 }

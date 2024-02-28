@@ -10,36 +10,48 @@
 </head>
 
 <body>
-  <dialog id="ventanaModal" class="modal">
-    <div class="contenido-modal">
-      <img class="imagen" alt="" src="">
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Marvel</a></li>
+        <li><a href="#">DC Comics</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Ventana Emergente -->
+    <dialog id="ventanaModal" class="modal">
+      <div class="contenido-modal">
+        <img class="imagen" alt="" src="">
         <button class="cerrar">Salir</button>
         <h2 class="tituloModal"></h2>
         <p class="descripcion"></p>
-  </div>
-</dialog>
-  <div class="container">
-    <section class="cardsmarvel">
-    </section>
+      </div>
+    </dialog>
 
-    <section class="cardsDC">
-      <!-- <div class="card">
-        <div class="card-img">
-          <img src="storage/img/Marvel/Ant-Man.jpg" alt="Personaje1">
-        </div>
-        <div class="card-content">
-          <h3>Nombre</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ullam quae atque iste minus nisi molestias
-            aliquid!</p>
-          <a href="" class="btn-more">Ver más</a>
-        </div>
-      </div> -->
-    </section>
+    <!-- tarjetas -->
+    <div class="container">
+      <div class="header headerMarvel">
+        <img src="storage/img/Marvel/logoMarvelpng" alt="Logo Marvel">
+      </div>
+      <section class="cardsmarvel">
+      </section>
 
-    
-  </div>
+      <div class="header headerDC">
+        <img src="storage/img/DC/logoCD.png" alt="Logo DC">
+      </div>
+      <section class="cardsDC">
+      </section>
+    </div>
+    </div>
+  </main>
 
-</div>
+  <footer>
+    Pie de página
+  </footer>
 
 </body>
+
 </html>
