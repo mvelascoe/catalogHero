@@ -54,6 +54,8 @@ cartaDC.addEventListener("click", (event) => {
 function mostrarModal(heroe) {
   const datos = buscarHero(heroe);
   // console.log(datos);
+  // modal.style.width = "800px";  // Establece el ancho deseado
+  // modal.style.maxHeight = "80vh";  // Establece la altura máxima deseada
   modal.style.display = "block";
   const h2 = document.querySelector(".tituloModal");
   h2.textContent = datos.name;
@@ -75,3 +77,45 @@ function buscarHero(nombre) {
 span.addEventListener("click", function () {
   modal.style.display = "none";
 });
+
+
+
+// function filterCards() {
+//   const filterValue = document.getElementById("filterSelect").value;
+//   const searchValue = document.getElementById("searchInput").value.toLowerCase();
+
+//   document.querySelectorAll('.card').forEach((card) => {
+//     const cardType = card.classList.contains('card-marvel') ? 'marvel' : 'dc';
+//     const isTypeMatch = filterValue === 'all' || cardType === filterValue;
+//     const cardTextContent = card.textContent.toLowerCase();
+//     const isSearchMatch = searchValue === '' || cardTextContent.includes(searchValue);
+
+//     card.style.display = isTypeMatch && isSearchMatch ? 'flex' : 'none';
+//   });
+// }
+
+// filterCards()
+
+function filtrarComics() {
+  const filtro = document.getElementById("filtro").value;
+
+  const seccionMarvel = document.querySelector("section.cardsmarvel");
+  const seccionDC = document.querySelector("section.cardsDC");
+
+
+  seccionMarvel.style.display = "none";
+  seccionDC.style.display = "none";
+
+
+  if (filtro === "marvel") {
+    seccionMarvel.style.display = "grid";
+  } else if (filtro === "dc") {
+    seccionDC.style.display = "grid";
+  } else {
+
+    seccionMarvel.style.display = "grid";
+    seccionDC.style.display = "grid";
+  }
+}
+
+

@@ -5,18 +5,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/app.js" type="module" defer></script>
+  <!-- <script src="js/app.js" type="module" defer></script> -->
   <title>Comics</title>
 </head>
 
 <body>
   <header>
     <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Marvel</a></li>
-        <li><a href="#">DC Comics</a></li>
-      </ul>
+      <nav>
+        <!-- <select class="input" name="selectCategory" id="selectCategory">
+          <option value="all">ALL</option>
+          <option value="marvel">MARVEL</option>
+          <option value="dc">DC</option>
+      </select> -->
+    </select>
+
+        <!-- <select id="filterSelect" onchange="filterCards()">
+          <option value="all">Mostrar Todos</option>
+          <option value="marvel">Marvel</option>
+          <option value="dc">DC Comics</option>
+          <input type="text" id="searchInput" placeholder="Buscar...">
+          <button id="searchButton" onclick="filterCards()">Buscar</button>
+        </select> -->
+      </nav>
     </nav>
   </header>
 
@@ -24,12 +35,16 @@
     <!-- Ventana Emergente -->
     <dialog id="ventanaModal" class="modal">
       <div class="contenido-modal">
-        <img class="imagen" alt="" src="">
-        <button class="cerrar">Salir</button>
-        <h2 class="tituloModal"></h2>
-        <p class="descripcion"></p>
+          <div class="imagen-container">
+              <img class="imagen" alt="" src="">
+          </div>
+          <div class="contenido-derecho">
+              <h2 class="tituloModal"></h2>
+              <p class="descripcion"></p>
+              <button class="cerrar">Salir</button>
+          </div>
       </div>
-    </dialog>
+  </dialog>
 
     <!-- tarjetas -->
     <div class="container">
@@ -52,6 +67,7 @@
     Pie de página
   </footer>
 
+  <script src="js/app.js" type="module" defer></script>
 </body>
 
 </html>

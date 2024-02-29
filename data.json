@@ -79,78 +79,78 @@
 
 "dc": [
   {
-     "img":"storage/img/Marvel/Ironman.jpg",
-     "name":"Ironman",
+     "img":"storage/img/DC/Batman.jpg",
+     "name":"Batman",
      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
   },
   {
-     "img":"storage/img/Marvel/Ant-Man.jpg",
-     "name":"Antman",
+     "img":"storage/img/DC/catwoman.jpg",
+     "name":"Cat Woman",
      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
   },
   {
-      "img":"storage/img/Marvel/Black Panther.jpg",
-      "name":"Black Panther",
+      "img":"storage/img/DC/guason.jpg",
+      "name":"Guason",
       "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
   },
   {
-    "img":"storage/img/Marvel/capitanA.jpg",
-    "name":"Capitan America",
+    "img":"storage/img/DC/harley quinn.jpg",
+    "name":"Harley Quinn",
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
   },
   {
-    "img":"storage/img/Marvel/drStrange.jpg",
-    "name":"Dr. Strange",
+    "img":"storage/img/DC/Superman.jpg",
+    "name":"Superman",
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
   },
   {
-    "img":"storage/img/Marvel/Falcon.jpg",
-    "name":"Falcon",
+    "img":"storage/img/DC/wonderWoman.jpg",
+    "name":"Wonder Woman",
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
   },
   {
-    "img":"storage/img/Marvel/Loki.jpg",
-    "name":"Loki",
+    "img":"storage/img/DC/aquaman.jpg",
+    "name":"Aquaman",
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
   },
   {
-    "img":"storage/img/Marvel/Nebula.jpg",
-    "name":"Nebula",
+    "img":"storage/img/DC/flash.jpg",
+    "name":"Flash",
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
   },
   {
-    "img":"storage/img/Marvel/Scarlet Witch.jpg",
-    "name":"Scarlet Witch.",
+    "img":"storage/img/DC/Cyborg.jpg",
+    "name":"Cyborg",
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
   },
   {
-    "img":"storage/img/Marvel/Thanos.jpg",
-    "name":"Thanos",
+    "img":"storage/img/DC/robin.jpg",
+    "name":"Robin",
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
   },
   {
-    "img":"storage/img/Marvel/The Hulk.jpg",
-    "name":"The Hulk.",
+    "img":"storage/img/DC/linternaverde.jpg",
+    "name":"Linterna Verde",
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
   },
   {
-    "img":"storage/img/Marvel/Thor.jpg",
-    "name":"Thor.",
+    "img":"storage/img/DC/GreenArrow.jpg",
+    "name":"Green Arrow",
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
   },
   {
-    "img":"storage/img/Marvel/Vision.jpg",
-    "name":"Vision.",
+    "img":"storage/img/DC/Dr.fate.jpg",
+    "name":"Dr. Fate",
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
   },
   {
-    "img":"storage/img/Marvel/Winter Soldier.jpg",
-    "name":"Winter Soldier.",
+    "img":"storage/img/DC/martian.jpg",
+    "name":"Martian",
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
   },
   {
-    "img":"storage/img/Marvel/spider-man.jpg",
-    "name":"Spider-Man.",
+    "img":"storage/img/DC/shazam.jpg",
+    "name":"Shazam",
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
   }
 ]
