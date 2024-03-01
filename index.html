@@ -11,24 +11,14 @@
 
 <body>
   <header>
-    <nav>
-      <nav>
-        <!-- <select class="input" name="selectCategory" id="selectCategory">
-          <option value="all">ALL</option>
-          <option value="marvel">MARVEL</option>
-          <option value="dc">DC</option>
-      </select> -->
-    </select>
-
-        <!-- <select id="filterSelect" onchange="filterCards()">
-          <option value="all">Mostrar Todos</option>
-          <option value="marvel">Marvel</option>
-          <option value="dc">DC Comics</option>
-          <input type="text" id="searchInput" placeholder="Buscar...">
-          <button id="searchButton" onclick="filterCards()">Buscar</button>
-        </select> -->
-      </nav>
-    </nav>
+    <div class="univeresos">
+      <a id="home" href="#" >HOME</a>
+      <a id="soloDc" href="#" >DC</a>
+      <a id="soloMarvel" href="#" >MARVEL</a>
+    </div>
+    <form action="#">
+      <input type="text" id="searchInput" placeholder="Buscar...">
+    </form>
   </header>
 
   <main>
@@ -48,15 +38,8 @@
 
     <!-- tarjetas -->
     <div class="container">
-      <div class="header headerMarvel">
-        <img src="storage/img/Marvel/logoMarvelpng" alt="Logo Marvel">
-      </div>
       <section class="cardsmarvel">
       </section>
-
-      <div class="header headerDC">
-        <img src="storage/img/DC/logoCD.png" alt="Logo DC">
-      </div>
       <section class="cardsDC">
       </section>
     </div>

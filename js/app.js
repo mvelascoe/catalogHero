@@ -1,6 +1,14 @@
 import data from "../data.json" assert { type: "json" };
 
-console.log(data)
+// Crear un arreglo de json que contenga los personajes de los dos universos
+const allHeros = [...data.marvel, ...data.dc];
+
+// Mostrar todos los personajes de los 2 universos en un solo div
+allHeros.forEach(function (heroData) {
+  createHeroCards(heroData, "section.cardsmarvel");
+});
+
+// console.log(data);
 
 function createHeroCards(heroData, sectionSelector) {
   const cardInnerHTML = `
@@ -19,17 +27,18 @@ function createHeroCards(heroData, sectionSelector) {
 
   document.querySelector(sectionSelector).appendChild(customDiv);
 }
+const mainSection = document.querySelector(".cardsmarvel");
 
-data.marvel.forEach(function (heroData) {
-  createHeroCards(heroData, "section.cardsmarvel");
-});
-
-data.dc.forEach(function (heroData) {
-  createHeroCards(heroData, "section.cardsDC");
-});
+function mostrarHeroes(universo) {
+  while (mainSection.firstChild) {
+    mainSection.removeChild(mainSection.firstChild);
+  }
+  universo.forEach(function (heroData) {
+    createHeroCards(heroData, "section.cardsmarvel");
+  });
+}
 
 //Ventana Emergente
-
 const boton = document.querySelector(".boton");
 const span = document.getElementsByClassName("cerrar")[0];
 const modal = document.getElementById("ventanaModal");
@@ -53,9 +62,7 @@ cartaDC.addEventListener("click", (event) => {
 
 function mostrarModal(heroe) {
   const datos = buscarHero(heroe);
-  // console.log(datos);
-  // modal.style.width = "800px";  // Establece el ancho deseado
-  // modal.style.maxHeight = "80vh";  // Establece la altura máxima deseada
+
   modal.style.display = "block";
   const h2 = document.querySelector(".tituloModal");
   h2.textContent = datos.name;
@@ -78,44 +85,38 @@ span.addEventListener("click", function () {
   modal.style.display = "none";
 });
 
+const soloDc = document.querySelector("#soloDc");
+const soloMarvel = document.querySelector("#soloMarvel");
+const home = document.querySelector("#home");
 
+soloDc.addEventListener("click", () => {
+  mostrarHeroes(data.dc);
+  console.log("dc");
+});
 
-// function filterCards() {
-//   const filterValue = document.getElementById("filterSelect").value;
-//   const searchValue = document.getElementById("searchInput").value.toLowerCase();
+soloMarvel.addEventListener("click", () => {
+  mostrarHeroes(data.marvel);
+  console.log("marvel");
+});
 
-//   document.querySelectorAll('.card').forEach((card) => {
-//     const cardType = card.classList.contains('card-marvel') ? 'marvel' : 'dc';
-//     const isTypeMatch = filterValue === 'all' || cardType === filterValue;
-//     const cardTextContent = card.textContent.toLowerCase();
-//     const isSearchMatch = searchValue === '' || cardTextContent.includes(searchValue);
+home.addEventListener("click", () => {
+  mostrarHeroes(allHeros);
+  console.log("allHeros");
+});
 
-//     card.style.display = isTypeMatch && isSearchMatch ? 'flex' : 'none';
-//   });
-// }
+const searchInput = document.querySelector("#searchInput");
+searchInput.addEventListener("input", searchHero);
 
-// filterCards()
-
-function filtrarComics() {
-  const filtro = document.getElementById("filtro").value;
-
-  const seccionMarvel = document.querySelector("section.cardsmarvel");
-  const seccionDC = document.querySelector("section.cardsDC");
-
-
-  seccionMarvel.style.display = "none";
-  seccionDC.style.display = "none";
-
-
-  if (filtro === "marvel") {
-    seccionMarvel.style.display = "grid";
-  } else if (filtro === "dc") {
-    seccionDC.style.display = "grid";
-  } else {
-
-    seccionMarvel.style.display = "grid";
-    seccionDC.style.display = "grid";
+function searchHero(e) {
+  console.log(e.target.value);
+  const valor = e.target.value.toLowerCase();
+  const resultado = allHeros.filter((hero) =>
+    hero.name.toLowerCase().startsWith(valor)
+  );
+  while (mainSection.firstChild) {
+    mainSection.removeChild(mainSection.firstChild);
   }
+  resultado.forEach(function (heroData) {
+    createHeroCards(heroData, "section.cardsmarvel");
+  });
 }
-
-
