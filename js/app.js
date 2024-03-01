@@ -17,7 +17,6 @@ function createHeroCards(heroData, sectionSelector) {
     </div>
     <div class="card-content">
       <h3>${heroData.name}</h3>
-      <p>${heroData.description}</p>
       <button id="${heroData.name}" class="boton">Ver más</button>
     </div>`;
 
@@ -70,9 +69,15 @@ function mostrarModal(heroe) {
   const imgs = document.querySelector(".imagen");
   imgs.src = datos.img;
 
+  const año = document.querySelector(".año");
+  año.textContent = datos.añoCreacion;
+
   const parrafo = document.querySelector(".descripcion");
   parrafo.textContent = datos.description;
 }
+
+document.body.classList.add('modal-abierta');
+document.body.classList.remove('modal-abierta');
 
 function buscarHero(nombre) {
   const heroeMarvel = data.marvel.find((h) => h.name === nombre);

@@ -3,155 +3,185 @@
     {
        "img":"storage/img/Marvel/Ironman.jpg",
        "name":"Ironman",
-       "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+       "añoCreacion":"Año de creación: 1963",
+       "description": "Iron Man es el alter-ego de Tony Stark, un filántropo multimillonario que, luego de un secuestro, debe construir un aparato para mantenerse con vida. Esto lo lleva a crear un traje de alta tecnología que eventualmente usa como herramienta para luchar contra el crimen."
     },
     {
        "img":"storage/img/Marvel/Ant-Man.jpg",
        "name":"Antman",
-       "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+       "añoCreacion":"Año de creación: 1962",
+       "description":"Ant-Man es el alter ego de Scott Lang, actualmente. Sin embargo, en años previos el usuario del traje era Hank Pym. El científico Hank Pym crea el traje luego de experimentar con sustancias que alteran el tamaño. Pym es un biofísico y experto en operaciones de seguridad"
     },
     {
         "img":"storage/img/Marvel/Black Panther.jpg",
         "name":"Black Panther",
-        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+        "añoCreacion":"Año de creación: 1966",
+        "description":"Su verdadero nombre es T'Challa, y es el rey y protector de la nación africana ficticia llamada Wakanda. Es el primer héroe afroamericano de ascendencia africana en los cómics americanos, debutando antes que Falcon, Luke Cage y Blade. Sus poderes los obtuvo a través de un ritual en su país natal. Además, entrena en combate cuerpo a cuerpo y tiene el intelecto de un genio."
     },
     {
       "img":"storage/img/Marvel/capitanA.jpg",
       "name":"Capitan America",
-      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+      "añoCreacion":"Año de creación: 1941",
+      "description":"Capitán América es el alter ego de Steve Rogers, un soldado americano que fue modificado genéticamente para producir un 'supersoldado' patriótico. El personaje es un arquetipo de patriotismo americano, con un disfraz que muestra la bandera de EEUU. Steve Rogers permaneció en animación suspendida, congelado, luego de los sucesos en la Segunda Guerra Mundial. Eventualmente, se despierta en la época moderna"
     },
     {
       "img":"storage/img/Marvel/drStrange.jpg",
       "name":"Dr. Strange",
-      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+      "añoCreacion":"Año de creación: 1963",
+      "description":"Stephen Strange, que adopta el seudónimo de Doctor Strange, solía ser un cirujano egocéntrico. Luego de un accidente de tránsito, es incapaz de operar a sus pacientes, y buscando una forma de curarse se encuentra con El Anciano, el Hechicero Supremo. Al transformarse en su aprendiz, aprende sobre la hechicería, y obtiene artículos místicos, como el Ojo de Agamotto y la capa de Levitación. Eventualmente, Strange se transforma en el Hechicero Supremo y dirige el Sanctum Sanctorum."
     },
     {
       "img":"storage/img/Marvel/Falcon.jpg",
       "name":"Falcon",
-      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+      "añoCreacion":"Año de creación: 1969",
+      "description":"Sam Wilson es oficialmente, el primer superhéroe afroamericano en los cómics populares. En su identidad de Falcon, usa alas mecánicas para volar, y tiene poderes telepáticos limitados hacia las aves. Luego de que Steve Rogers se retirase como Capitán América, es Falcon quien lo sucede."
     },
     {
       "img":"storage/img/Marvel/Loki.jpg",
       "name":"Loki",
-      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+      "añoCreacion":"Año de creación: 1949",
+      "description":"Basado en el dios nódrico, Loki es el 'dios del engaño'. Es el hermano adoptivo de Thor. Ha sido mostrado tanto como un supervillano como un antihéroe, y ese ha sido su papel más notorio en el MCU. Su origen ha sido cambiado varias veces, pero la versión oficial es que Loki es el hijo del rey de los gigantes de hielo, Laufey, y es adoptado por Odín al encontrarse pequeño e indefenso en el medio de la guerra"
     },
     {
       "img":"storage/img/Marvel/Nebula.jpg",
       "name":"Nebula",
-      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+      "añoCreacion":"Año de creación: 1985",
+      "description":"Nebula tiene su origen como una mercenaria alienígena, que ataca una nave perteneciente a Thanos, quien es su abuelo. En el MCU, Nebula es hija adoptiva de Thanos, junto con Gamora. Su versión en el cómic tiene muchos más encuentros con Avengers y con Thanos, quien la deja en un estado de suspensión entre la vida y la muerte, y la transforma en mitad cyborg. Piezas de esta historia están mezcladas en el MCU."
     },
     {
       "img":"storage/img/Marvel/Scarlet Witch.jpg",
       "name":"Scarlet Witch.",
-      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+      "añoCreacion":"Año de creación: 1964",
+      "description":"Wanda Maximoff es un personaje que también lleva el alias de la Bruja Escarlata. Originalmente, es uno de los personajes más poderosos del mundo Marvel, alterando la probabilidad y eventualmente incluso la realidad. En sus orígenes se estableció que era una mutante, pero a medida que su historia avanzó, también se manejó la teoría de que sus habilidades fueron consecuencia de un experimento en el que formó parte cuando era niña"
     },
     {
       "img":"storage/img/Marvel/Thanos.jpg",
       "name":"Thanos",
-      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+      "añoCreacion":"Año de creación: 1973",
+      "description":"Este supervillano es más conocido por ser el mayor antagonista para los Avengers, tanto en el mundo del comic como en el MCU. Es un señor de la guerra, originario de la luna Titan, y es considerado uno de los personajes más poderosos del universo de Marvel."
     },
     {
       "img":"storage/img/Marvel/The Hulk.jpg",
       "name":"The Hulk.",
-      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+      "añoCreacion":"Año de creación: 1962",
+      "description":"The Hulk es el alter ego de Bruce Banner. El personaje del Hulk sufre de un trastorno de identidad disociativo, durante el cual sus acciones como Hulk no hacen mella en la memoria de Banner. El humanoide Hulk cuenta con una fuerza sin límites, tiene la piel verde y es enorme y musculoso. El Doctor Bruce Banner es un personaje totalmente opuesto al Hulk, ya que es retraído, callado y débil."
     },
     {
       "img":"storage/img/Marvel/Thor.jpg",
       "name":"Thor.",
-      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+      "añoCreacion":"Año de creación: 1962",
+      "description":"Thor Odinson, conocido simplemente como Thor, es el dios del trueno asgardiano, basado en la mitología nórdica. El martillo encantado, Mjolnir, le permite volar y controlar el clima, y cuenta con otros atributos superhumanos. Es uno de los fundadores del grupo de superhéroes Avengers."
     },
     {
       "img":"storage/img/Marvel/Vision.jpg",
       "name":"Vision.",
-      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+      "añoCreacion":"Año de creación: 1974",
+      "description":"También conocido como The Vision, fue creado por Ultrón, un robot malicioso creado por Hank Pym. Su papel original era el del 'hijo' de Ultrón, es decir que su objetivo era acabar con los Avengers. Pero eventualmente, se voltea contra su creador, y se une al lado de los buenos."
     },
     {
       "img":"storage/img/Marvel/Winter Soldier.jpg",
       "name":"Winter Soldier.",
-      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+      "añoCreacion":"Año de creación: 1941",
+      "description":"Su verdadera identidad es la de James Buchanan, 'Bucky' Barnes Jr. El personaje fue creado para darle un compañero al Capitán América. Luego del fallecimiento de Bucky, es traído de vuelta a la vida como un mitad cyborg asesino, modificado mentalmente para ver a Capitán América como su enemigo. Así se crea el Soldado de Invierno."
     },
     {
       "img":"storage/img/Marvel/spider-man.jpg",
       "name":"Spider-Man.",
-      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+      "añoCreacion":"Año de creación: 1962",
+      "description":"Spider-Man es el alter ego de Peter Parker, un estudiante de secundaria brillante pero tímido. Después de ser picado por una araña radiactiva en una exhibición científica, Peter adquiere habilidades sobrehumanas, incluyendo fuerza aumentada, agilidad, reflejos mejorados y la capacidad de trepar paredes. Tras la tragedia del asesinato de su tío Ben, Peter asume la responsabilidad de usar sus poderes para luchar contra el crimen y proteger a los inocentes."
     }
 ],
 
 "dc": [
-  {
-     "img":"storage/img/DC/Batman.jpg",
-     "name":"Batman",
-     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    {
+      "img":"storage/img/DC/Batman.jpg",
+      "name":"Batman",
+      "añoCreacion":"Año de creación: 1939",
+      "description":"Batman, cuyo verdadero nombre es Bruce Wayne, es un multimillonario y filántropo que, tras presenciar el asesinato de sus padres en su infancia, jura luchar contra el crimen. Entrenado física y mentalmente, se convierte en el Caballero de la Noche, usando su inteligencia y habilidades para proteger Gotham City."
   },
   {
-     "img":"storage/img/DC/catwoman.jpg",
-     "name":"Cat Woman",
-     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+      "img":"storage/img/DC/catwoman.jpg",
+      "name":"Cat Woman",
+      "añoCreacion":"Año de creación: 1940",
+      "description":"Catwoman, también conocida como Selina Kyle, es una ladrona hábil y escurridiza con una conexión compleja con Batman. A lo largo de los cómics, Catwoman ha oscilado entre ser una villana, una aliada y ocasionalmente una interés amoroso para Batman."
   },
   {
-      "img":"storage/img/DC/guason.jpg",
-      "name":"Guason",
-      "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    "img":"storage/img/DC/guason.jpg",
+    "name":"Guason",
+    "añoCreacion":"Año de creación: 1940",
+    "description":"El Joker, conocido como el Guasón en español, es un villano psicótico y el archienemigo de Batman. Su origen es misterioso y ha pasado por varias interpretaciones a lo largo de los años. Su naturaleza caótica y su relación con Batman lo convierten en uno de los villanos más icónicos de DC."
   },
   {
-    "img":"storage/img/DC/harley quinn.jpg",
-    "name":"Harley Quinn",
-    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    "img": "storage/img/DC/harley quinn.jpg",
+    "name": "Harley Quinn",
+    "añoCreacion": "Año de creación: 1992",
+    "description": "Harley Quinn, cuyo nombre real es Harleen Quinzel, es una villana y antiheroína conocida por ser la compañera del Joker. Originalmente era una psiquiatra en el Asilo Arkham, pero se enamoró del Joker y se convirtió en su cómplice del crimen. Ha evolucionado para convertirse en un personaje independiente y uno de los favoritos de los fanáticos."
   },
   {
-    "img":"storage/img/DC/Superman.jpg",
-    "name":"Superman",
-    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    "img": "storage/img/DC/Superman.jpg",
+    "name": "Superman",
+    "añoCreacion": "Año de creación: 1938",
+    "description": "Superman, también conocido como Clark Kent, es el último hijo superviviente del planeta Krypton. Criado en la Tierra, desarrolla habilidades sobrehumanas debido a la radiación solar. Es conocido por su fuerza, velocidad y visión de calor. Superman es un símbolo de verdad, justicia y el camino correcto, y es uno de los superhéroes más emblemáticos de DC Comics."
   },
   {
-    "img":"storage/img/DC/wonderWoman.jpg",
-    "name":"Wonder Woman",
-    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    "img": "storage/img/DC/wonderWoman.jpg",
+    "name": "Wonder Woman",
+    "añoCreacion": "Año de creación: 1941",
+    "description": "Wonder Woman, cuyo nombre real es Diana Prince, es una princesa amazona y una de las guerreras más fuertes de Themyscira. Conocida por su lazo de la verdad, sus brazaletes indestructibles y su coraje, Wonder Woman es una defensora de la paz y la igualdad. Es una de las principales heroínas de DC Comics."
   },
   {
-    "img":"storage/img/DC/aquaman.jpg",
-    "name":"Aquaman",
-    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    "img": "storage/img/DC/aquaman.jpg",
+    "name": "Aquaman",
+    "añoCreacion": "Año de creación: 1941",
+    "description": "Aquaman, cuyo nombre real es Arthur Curry, es el rey de la Atlántida y posee la capacidad de comunicarse con los animales marinos y controlar el agua. Aunque a veces es subestimado, Aquaman es un poderoso superhéroe con habilidades únicas. Es un defensor tanto de la Atlántida como del mundo de la superficie."
   },
   {
-    "img":"storage/img/DC/flash.jpg",
-    "name":"Flash",
-    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    "img": "storage/img/DC/flash.jpg",
+    "name": "Flash",
+    "añoCreacion": "Año de creación: 1940",
+    "description": "Flash, cuyo nombre real es Barry Allen, es un velocista metahumano con la capacidad de correr a velocidades increíbles. Tras ser alcanzado por un rayo y ser bañado en productos químicos, Barry obtiene sus poderes. Flash es un miembro clave de la Liga de la Justicia y es conocido por su sentido del humor y su dedicación a la justicia."
   },
   {
-    "img":"storage/img/DC/Cyborg.jpg",
-    "name":"Cyborg",
-    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    "img": "storage/img/DC/Cyborg.jpg",
+    "name": "Cyborg",
+    "añoCreacion": "Año de creación: 1980",
+    "description": "Cyborg, cuyo nombre real es Victor Stone, es un mitad humano y mitad máquina después de un accidente trágico. Con habilidades tecnológicas avanzadas, es un valioso miembro de la Liga de la Justicia. Cyborg es conocido por su fuerza sobrehumana y su capacidad para interactuar con tecnología de manera única."
   },
   {
-    "img":"storage/img/DC/robin.jpg",
-    "name":"Robin",
-    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    "img": "storage/img/DC/robin.jpg",
+    "name": "Robin",
+    "añoCreacion": "Año de creación: 1940",
+    "description": "Robin es un título compartido por varios compañeros y ayudantes de Batman. El primero en llevar el manto fue Dick Grayson, el joven acróbata cuyos padres fueron asesinados. A lo largo de los años, varios personajes han asumido el papel de Robin, cada uno aportando sus habilidades únicas al lado de Batman."
   },
   {
-    "img":"storage/img/DC/linternaverde.jpg",
-    "name":"Linterna Verde",
-    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    "img": "storage/img/DC/linternaverde.jpg",
+    "name": "Linterna Verde",
+    "añoCreacion": "Año de creación: 1940",
+    "description": "Linterna Verde es un título compartido por varios miembros de la Fuerza de Linterna Verde, una fuerza policial intergaláctica que protege el universo. Cada Linterna Verde lleva un anillo de poder que le otorga la capacidad de crear construcciones de luz pura. Entre los más conocidos está Hal Jordan, un piloto de pruebas de la Tierra."
   },
   {
-    "img":"storage/img/DC/GreenArrow.jpg",
-    "name":"Green Arrow",
-    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    "img": "storage/img/DC/GreenArrow.jpg",
+    "name": "Green Arrow",
+    "añoCreacion": "Año de creación: 1941",
+    "description": "Green Arrow, cuyo nombre real es Oliver Queen, es un arquero experto y justiciero urbano. Inspirado por Robin Hood, lucha contra la injusticia utilizando su habilidad con el arco y flecha. Green Arrow es conocido por su ingenio y sus habilidades de combate cuerpo a cuerpo, además de ser un miembro destacado de la Liga de la Justicia."
   },
   {
-    "img":"storage/img/DC/Dr.fate.jpg",
-    "name":"Dr. Fate",
-    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    "img": "storage/img/DC/Dr.fate.jpg",
+    "name": "Dr. Fate",
+    "añoCreacion": "Año de creación: 1940",
+    "description": "Dr. Fate es el título de varios hechiceros que comparten el poder del casco de Nabu, un antiguo ser místico. Los que llevan el casco obtienen habilidades mágicas significativas. Kent Nelson es uno de los más conocidos como Dr. Fate. Como protector de la magia, Dr. Fate ha sido miembro de la Liga de la Justicia y lucha contra amenazas místicas."
   },
   {
-    "img":"storage/img/DC/martian.jpg",
-    "name":"Martian",
-    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    "img": "storage/img/DC/martian.jpg",
+    "name": "Martian Manhunter",
+    "añoCreacion": "Año de creación: 1955",
+    "description": "Martian Manhunter, cuyo nombre real es J'onn J'onzz, es el último sobreviviente marciano y miembro de la Liga de la Justicia. Tiene habilidades marcianas, incluyendo cambio de forma, telepatía y fuerza sobrehumana. Martian Manhunter es conocido por su sabiduría y su papel como estratega en el equipo de superhéroes."
   },
   {
-    "img":"storage/img/DC/shazam.jpg",
-    "name":"Shazam",
-    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo repellat obcaecati asperiores consequatur quam adipisci."
+    "img": "storage/img/DC/shazam.jpg",
+    "name": "Shazam",
+    "añoCreacion": "Año de creación: 1940",
+    "description": "Shazam, anteriormente conocido como Capitán Marvel, es el alter ego de Billy Batson, un niño que puede transformarse en un superhéroe adulto al pronunciar la palabra 'Shazam'. Cada letra de esa palabra representa a un antiguo dios o héroe, otorgándole a Shazam habilidades como la fuerza de Hércules y la velocidad de Mercurio."
   }
 ]
 }
