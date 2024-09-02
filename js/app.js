@@ -1,5 +1,7 @@
-import data from "../data.json" assert { type: "json" };
-
+//import data from "../data.json" assert { type: "json" };
+fetch("../data.json")
+  .then(response => response.json())
+  .then(data => {
 // Crear un arreglo de json que contenga los personajes de los dos universos
 const allHeros = [...data.marvel, ...data.dc];
 
@@ -125,3 +127,6 @@ function searchHero(e) {
     createHeroCards(heroData, "section.cardsmarvel");
   });
 }
+
+})
+.catch(error => console.error('Error al cargar el JSON:', error));
