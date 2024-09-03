@@ -1,5 +1,5 @@
 //import data from "../data.json" assert { type: "json" };
-fetch("../data.json")
+fetch("/catalogHero/data.json")
   .then(response => response.json())
   .then(data => {
 // Crear un arreglo de json que contenga los personajes de los dos universos
